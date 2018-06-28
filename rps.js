@@ -37,9 +37,9 @@ rock.onclick = function choseRock() {
     if (computerChoice === rock) {
         alert("computer chose rock... you tied");
     } else if (computerChoice === paper) {
-        alert("computer chose paper... you lost")
+        alert("paper covers rock... you lost")
     } else if (computerChoice === scissors){
-        alert("computer chose scissors... you won")
+        alert("rock smashes scissors... you won")
     }
 
 }
@@ -75,11 +75,11 @@ paper.onclick = function chosePaper() {
     var scissors = 0;
 
     if (computerChoice === rock) {
-        alert("computer chose rock... you won!");
+        alert("paper covers rock... you won!");
     } else if (computerChoice === paper) {
         alert("computer chose paper... you tied")
     } else if (computerChoice === scissors){
-        alert("computer chose scissors... you lost")
+        alert("scissors cut paper... you lost")
     }
 
 }
@@ -115,9 +115,9 @@ scissors.onclick = function choseScissors() {
     var scissors = 0;
 
     if (computerChoice === rock) {
-        alert("computer chose rock... you lost");
+        alert("rock smashes scissors... you lost");
     } else if (computerChoice === paper) {
-        alert("computer chose paper... you won!")
+        alert("scissors cut paper... you won!")
     } else if (computerChoice === scissors) {
         alert("computer chose scissors... you tied")
     }
